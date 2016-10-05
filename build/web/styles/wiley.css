@@ -1,0 +1,114 @@
+/*
+<!--Copyright © 2016 Sarah Allen, Breslin Wiley-->
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 2, 2016, 4:41:23 PM
+    Author     : Breslin
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: .25em;
+}
+header{
+  text-align: center;
+}
+
+#bord {
+  margin: 50px auto;
+  max-width: 760px;
+  width: 95%;
+}
+
+ul{
+  margin: 0%;
+}
+
+h1 {
+  font-size: 1.313em;
+}
+
+h2 {
+  font-size: 1em;
+  text-decoration: underline;
+  padding-top: 1em;
+}
+
+#dot,
+.top{
+  display: inline;
+} 
+
+.title {
+  font-style: italic;
+  font-weight: bold;
+  margin: 1% 0;
+}
+
+.year {
+  display: inline-block;
+  float: right;
+  margin-top: -29px;
+}
+
+li {
+  line-height: 1em;
+}
+
+
+#PL,
+#SA,
+#OL {
+  margin: 1% 0;
+}
+
+.maj {
+  font-style: italic;
+}
+#lead{
+    color: red;
+}
+#intern{
+    color: red;
+}
+
+@media only screen and (max-width: 500px){
+  .year {
+    float: none;
+    margin-bottom: 2%;
+  }
+  
+  #PL,
+  #SA,
+  #OS {
+    margin: 2% 0;
+  }
+  
+  .title {
+  margin: 2% 0 4%;
+}
+  
+  #EU {
+    margin-bottom: 0%;
+  }
+  #VT {
+    margin-bottom: 0%;
+  }
+  
+  .top {
+    display: block;
+  }
+  
+  #dot {
+    display: none;
+  }
+  #intern{
+    color: red;
+  }
+  #lead{
+      color: red;
+  }
+  }
